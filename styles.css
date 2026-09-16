@@ -1,17 +1,33 @@
+nav a:hover {
+  color: #3b2626;
+}
 h1 {
-  color: #1B3A5C;
-  font-family: Arial, sans-serif;
+  color: #e4a002;
+  font-family: 'Quicksand', quicksand, sans-serif;
   text-align: center;
 }
 
 p {
-  color: #444444;
-  font-size: 18px;
+  color: #4e3636;
+  font-size: 21px;
   line-height: 1.5;
 }
 
 body {
-  background-color: #EAF3FA;
+  background-color: #ffcc3f;
   margin: 0;
   padding: 20px;
 }
+.content-wrapper {
+
+    padding: 20px; 
+    
+    max-width: 1200px;
+    margin: 0 auto; 
+    
+    box-sizing: border-box;}
+    img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+    }
